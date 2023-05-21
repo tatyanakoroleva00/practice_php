@@ -1,6 +1,3 @@
-<?php
-
-?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -37,10 +34,42 @@
 <!--</form>-->
 <!---->
 
+<!--С помощью трех инпутов спросите у пользователя год, месяц и день рождения пользователя. + -->
+<!--После отправки формы определите день недели, в который родился пользователь.-->
 
+<!--<form class="form" method="post" action="result.php">-->
+<!--    <input name="year">-->
+<!--    <input name="month">-->
+<!--    <input name="day">-->
+<!--    <input type="submit">-->
+<!--</form>-->
 
+<!--Спросите у пользователя фамилию, имя и отчество. После отправки формы выведите на экран введенные данные.-->
+<!--<form class="form">-->
+<!--    <label for="name">What is your name?</label> <input name="name">-->
+<!--    <label for="fname">What is your family name?</label> <input name="fname">-->
+<!--    <input type="submit">-->
+<!--</form>-->
+<?php
+//    if(!empty($_GET)) {
+//        echo $_GET['name'] . $_GET['fname'];
+//    }
+//?>
 
-
+<!--С помощью формы спросите имя пользователя. После отправки формы поприветствуйте пользователя по имени, а форму уберите.-->
+<?php
+//if(empty($_GET)) {
+//?>
+<!--    <form class="form" method="get" action="">-->
+<!--        <label for="name">What is your name?</label> <input name="name">-->
+<!--        <input type="submit">-->
+<!--    </form>-->
+<?php
+//
+//        } else {
+//    echo "Hi, <b>$_GET[name]</b>! How are you today?";
+//    }
+//?>
 
 
 

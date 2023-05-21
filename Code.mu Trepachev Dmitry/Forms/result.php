@@ -6,5 +6,9 @@
 //$pass = '12345';
 //
 //if ($pass === $_POST['pass']) {
-//    echo 'password is correct';
-//} else echo 'password is not correct';
+//    echo 'Your password is correct';
+//} else echo 'Yout password is not correct';
+
+
+
+//echo "You were born on " . date("l", mktime(0, 0, 0, $_POST['month'], $_POST['day'], $_POST['year']));
